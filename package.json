@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A compatibility-based app that takes user survey data and matches it with data from other users.  Uses node.js and express.js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chryssajones/friend-finder.git"
+  },
+  "author": "Chryssa Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chryssajones/friend-finder/issues"
+  },
+  "homepage": "https://github.com/chryssajones/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
