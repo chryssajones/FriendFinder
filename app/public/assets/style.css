@@ -1,11 +1,17 @@
-body {
+body.home {
     text-align: center;
     margin: 40px;
     background: url(./friends.jpg);
     background-size: cover;
-    opacity: 0.9;
+}
+
+body.surveyBody {
+/*	background: url(./friendship-picture.jpg);
+	background-size: cover;*/
+	text-align: left;
 }
 
 .translucent {
     opacity: 0.9;
 }
+
