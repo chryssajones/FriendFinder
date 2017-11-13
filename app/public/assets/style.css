@@ -1,13 +1,13 @@
 body.home {
     text-align: center;
     margin: 40px;
-    background: url('friends.jpg');
+    background: url('./friends.jpg');
     background-size: cover;
 }
 
 body.surveyBody {
-/*	background: url(friendship-picture.jpg);
-	background-size: cover;*/
+	background: url('./friendship-picture.jpg');
+	background-size: cover;
 	text-align: left;
 }
 
@@ -15,3 +15,6 @@ body.surveyBody {
     opacity: 0.9;
 }
 
+.surveyFooter {
+	text-align: center;
+}

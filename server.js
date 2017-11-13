@@ -7,7 +7,7 @@ var jsonParser = bodyParser.json();
 var app = express();
 var PORT = process.env.PORT || 8080;
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/app/public'));
 
 // start the router
 require("./app/routing/apiRoutes")(app);
